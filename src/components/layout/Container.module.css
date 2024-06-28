@@ -1,13 +1,13 @@
 .container {
     display: flex;
     width: 1200px;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 .min-height{
-    min-height: 75vh;
+    min-height: 75%;
 }
 
 .start{
