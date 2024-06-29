@@ -12,19 +12,22 @@ export default function Navbar() {
                 <Link to="/">
                     <img src={logo} alt="Costs" />
                 </Link>
-                <ul class={styles.list}>
-                    <li>
+                <ul className={styles.list}>
+                    <li className={styles.item}>
                         <Link to={"/"}>Home </Link>
                     </li>
-                    <li>
+                    <li className={styles.item}>
+                        <Link to={"/projects"}>Projetos </Link>
+                    </li>
+                    <li className={styles.item}>
                         <Link to={"/contact"}>Contato </Link>
                     </li>
-                    <li>
+                    <li className={styles.item}>
                         <Link to={"/company"}>Empresa </Link>
                     </li>
-                    <li>
+                    {/* <li class={styles.item}>
                         <Link to={"/newproject"}>Novo Projeto </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </Container>
         </nav>
