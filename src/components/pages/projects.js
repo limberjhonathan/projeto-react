@@ -6,7 +6,7 @@ import Loading from "../layout/loading";
 import LinkButton from "../layout/LinkButton";
 import ProjectCard from "../project/ProjectCards";
 
-import styles from "./project.module.css"
+import styles from "./projects.module.css"
 import { useState, useEffect } from "react";
 
 export default function Projects() {
