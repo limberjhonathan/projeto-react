@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import styles from './Project.module.css'
 
 import { useParams } from 'react-router-dom'
+import Loading from '../layout/loading'
 // import { useState, useEffect } from 'react'
 
 // import Loading from '../layout/loading'
@@ -25,5 +26,11 @@ export default function Project(){
         .catch(err => console.log())
     }, [id])
 
-    return <p>{project.name}</p>
+    return (<>
+        {project.name ? (
+            <p>{project.name}</p>
+        ): (
+            <Loading/>
+        )}
+    </>)
 }
