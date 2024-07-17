@@ -4,7 +4,7 @@ import styles from './Project.module.css'
 import { useParams } from 'react-router-dom'
 import Loading from '../layout/loading'
 import Container from '../layout/Container'
-
+import ProjectForm from '../project/ProjectForm'
 
 export default function Project(){
     const {id} = useParams()
@@ -27,6 +27,10 @@ export default function Project(){
             .catch(err => console.log(err));
         }, 300);
     }, [id]);
+
+    function editPost() {
+        
+    }
 
     function toggleProjectForm() {
         setShowProjectForm(!showProjectForm)
@@ -55,7 +59,11 @@ export default function Project(){
                             </div>
                         ) : (
                             <div className={styles.project_info}>
-                                <p>detalhes do projeto</p>
+                                <ProjectForm 
+                                    handleSubmit={editPost}
+                                    btnText="Concluir edição"
+                                    ProjectData={project}
+                                />
                             </div>
                         )}
                     </div>
