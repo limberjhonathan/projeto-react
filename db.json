@@ -19,8 +19,24 @@
         "id": "2",
         "name": "Dsenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 9696,
+      "services": [
+        {
+          "name": "Limbero",
+          "cost": "111",
+          "id": "c14a7193-c5a5-47dc-90ac-40a0688ffdb1"
+        },
+        {
+          "name": "sla",
+          "cost": "8585",
+          "id": "6641c1cf-3a01-453f-9db7-bad72cb60de0"
+        },
+        {
+          "name": "exemplp sla",
+          "cost": "1000",
+          "id": "846a53a2-7c00-4b99-8ad4-398927b97a44"
+        }
+      ]
     },
     {
       "id": "5893",
