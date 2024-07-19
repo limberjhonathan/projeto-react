@@ -37,8 +37,8 @@ export default function ServiceFrom({ handleSubmit, btnText, projectData }) {
             />
             <Input 
                 type='text'
-                text='Nome do serviço'
-                name='name'
+                text='Descrição do serviço'
+                name='description'
                 placeHolder="Insira o nome do serviço"
                 handleOnChange={handleChange}
             />
