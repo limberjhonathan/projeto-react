@@ -19,7 +19,7 @@
         "id": "2",
         "name": "Dsenvolvimento"
       },
-      "cost": 9696,
+      "cost": 11008,
       "services": [
         {
           "name": "Limbero",
@@ -35,6 +35,17 @@
           "name": "exemplp sla",
           "cost": "1000",
           "id": "846a53a2-7c00-4b99-8ad4-398927b97a44"
+        },
+        {
+          "name": "maça",
+          "cost": "1212",
+          "id": "7e8c55c0-d4e8-41f1-a0ab-ba6c89115484"
+        },
+        {
+          "name": "exemplooo",
+          "cost": "100",
+          "description": "eu nem sei o que e isso",
+          "id": "16728a18-f906-43fc-85b7-94b9dd3f2c3a"
         }
       ]
     },
