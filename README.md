@@ -16,3 +16,9 @@
 1. Clone o repositório:
    ```bash
    git@github.com:limberjhonathan/projeto-react.git
+2. Execute o projeto:
+   ```bash
+   git start
+3. Rode o banco de dados:
+   ```bash
+   git run backend
